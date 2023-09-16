@@ -24,4 +24,4 @@ You must have following programs/packages in order to run this project.
 * The python script will execute and take the data from excel and start entering into the form and automate save.
 * The python script will iterate 10 times as there is a break statement in the python script.
 
-Find it on youtube. https://youtu.be/_jb6M0vqCLs
+
