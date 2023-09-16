@@ -2,9 +2,6 @@
 
 The two tiny modules in this project are a sales order (JavaFX) module that will import data from an excel sheet and an automated data entry module (Python) that will enter data automatically. 
 
-## Demo
-* Video clip on youtube of the script execution. https://youtu.be/_jb6M0vqCLs
-
 ## Prerequisites
 
 You must have following programs/packages in order to run this project.
