@@ -1,7 +1,6 @@
-# Automate Manual Repetitive Data Entry Tasks
+# Streamline manual and repetitive data entry tasks through automation.
 
-This project contains two small modules one is sales order (JavaFX) which will take the data from the excel and other is automated 
-data entering module which is developed in python. 
+The two tiny modules in this project are a sales order (JavaFX) module that will import data from an excel sheet and an automated data entry module (Python) that will enter data automatically. 
 
 ## Demo
 * Video clip on youtube of the script execution. https://youtu.be/_jb6M0vqCLs
