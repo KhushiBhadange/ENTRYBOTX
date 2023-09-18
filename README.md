@@ -2,26 +2,64 @@
 
 The two tiny modules in this project are a sales order (JavaFX) module that will import data from an excel sheet and an automated data entry module (Python) that will enter data automatically. 
 
-## Prerequisites
+## Prerequisites:
 
-You must have following programs/packages in order to run this project.
-
+To successfully run the project, ensure the following prerequisites are met:
 * Java 1.8.0_66: https://www.java.com/download/
-* Python 3.8: Download it from https://www.python.org/downloads
-* Pandas: Run in command prompt pip install pandas
-* Xlrd : Run in command prompt pip install xlrd
-* Pyautogui: Run in command prompt pip install pyautogui
-* Oracle Database 19c: Download it from https://www.oracle.com/database/technologies/oracle19c-windows-downloads.html
+* Python 3.8: Download and install from https://www.python.org/downloads
+* Pandas: Install using pip install pandas in the command prompt
+* Xlrd : Install using  pip install xlrd in the command prompt
+* Pyautogui: Install using pip install pyautogui in the command prompt
+* Oracle Database 19c: Download and install it from https://www.oracle.com/database/technologies/oracle19c-windows-downloads.html
 
-## Approach
+## Project Execution:
 
-* First need to clone this respiratory.
-* Configure your database schema credentials in src/database/DbConnection.
-* Copy database script from database/script.sql and execute in your database IDE (SQL Developer/SQL++, TOAD, etc).
-* Run this project as part of java code through NetBeans IDE or command prompts.
-* You will see a form as a pop up where data needed to be entered from automation/Sales Orders.xlsx
-* Run python script which is in automation/script.py using py automation/script.py
-* The python script will execute and take the data from excel and start entering into the form and automate save.
-* The python script will iterate 10 times as there is a break statement in the python script.
+* Follow these steps to execute the project:
+1. Clone the project repository to your local machine.
+2. Configure your database schema credentials in the src/database/DbConnection file.
+3. Execute the database script found in database/script.sql within your preferred database IDE (e.g., SQL Developer, TOAD, etc.).
+4. Run the project, either through NetBeans IDE or the command prompt.
+
+## Execution Flow:
+
+* Upon running the project, a graphical user interface (GUI) form will appear as a pop-up window.
+* Data required for automation will be sourced from an Excel sheet located at automation/Sales Orders.xlsx.
+* The automation process is initiated through the Python script.
+
+## Automation Process:
+
+* The Python script (automation/script.py) is responsible for automating data entry.
+* It reads data from the Excel sheet and proceeds to enter this data into the GUI form.
+* The script automates the "save" operation as well.
+* The automation script is designed to iterate 10 times, thanks to a break statement embedded within the code.
+
+## Project Benefits:
+
+This project offers several advantages:
+* Elimination of manual data entry, reducing the potential for human error.
+* Efficiency gains through automation, leading to time and cost savings.
+* Integration with an Oracle Database for secure and organized data storage.
+* Ease of use, with clear instructions for setup and execution.
+
+## Use Cases:
+
+This project is well-suited for businesses and organizations that frequently deal with data entry tasks, such as processing sales orders, customer information, or inventory management. It can significantly enhance operational efficiency by automating repetitive processes.
+
+Here are some use cases for this project:
+
+1. Inventory Management:
+
+   Automating the entry of inventory data, including product details, quantities, and pricing, into a database system.
+   Regularly updating inventory levels and ensuring accurate stock records without manual intervention.
+
+2. Financial Transactions:
+
+   Automating the entry of financial transactions, such as invoices, receipts, and expense reports, into accounting software.
+   Reducing the risk of errors in financial records, which can have significant implications for businesses.
+
+3. Customer Relationship Management (CRM):
+
+   Automatically inputting customer data, contact information, and interactions into a CRM system.
+   Streamlining the process of managing customer relationships and improving customer service.
 
 
